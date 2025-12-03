@@ -1,16 +1,16 @@
-# AI-Theory
+# AI-Theory(Group_2)
 
-# Bayesian Pest Outbreak Risk Estimation
-
-
-# Search-Based Drone/AGV Routing for Irrigation and Spraying
+## Bayesian Pest Outbreak Risk Estimation
 
 
-
-# Automated Weekly Irrigation and Pest Control Planning
-
-
-# Reinforcement Learning for Adaptive Irrigation Control
+## Search-Based Drone/AGV Routing for Irrigation and Spraying
 
 
-# LLM-based Farmer Advisory and Decision Explanation
+
+## Automated Weekly Irrigation and Pest Control Planning
+
+
+## Reinforcement Learning for Adaptive Irrigation Control
+
+
+## LLM-based Farmer Advisory and Decision Explanation
