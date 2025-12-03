@@ -86,7 +86,7 @@ Common formats:
 • Timeline visualization 
 This cell makes the plan interpretable for end-users or evaluators.
 
-**3. Partial Order Planning:**
+## **3. Partial Order Planning:**
 **3.1 Code Overview** 
 **Cell 1 — Load Dataset & Constraints** 
 Purpose: 
