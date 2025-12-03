@@ -1,0 +1,63 @@
+**Farmer Advisory Note**
+
+**Urgency Level: High**  
+**Affected Plots: 12, 27**  
+
+**Recommended Actions:**
+
+1. **Irrigation:**
+   - **Plot 12:**
+     - Action: Use the AGV to irrigate.
+     - Volume: 70 liters.
+     - Timing: Start immediately and complete within 22 minutes.
+   - **Plot 27:**
+     - Action: Use the AGV to irrigate.
+     - Volume: 70 liters.
+     - Timing: Start immediately and complete within 22 minutes.
+
+2. **Pesticide Application:**
+   - **Plot 12:**
+     - Action: Apply pesticide using a drone.
+     - Estimated Drone Trips: 1.
+     - Safety Wait: 30 minutes after application before entering the plot.
+   - **Plot 27:**
+     - Action: Apply pesticide using a drone.
+     - Estimated Drone Trips: 1.
+     - Safety Wait: 30 minutes after application before entering the plot.
+
+**Materials/Tools Needed:**
+- AGV (Automated Guided Vehicle)
+- Drone for pesticide application
+- 140 liters of water (70 liters per plot)
+- Pesticide (ensure it is suitable for the crops)
+
+**Safety and Regulatory Warnings:**
+- Always wear protective gear when handling pesticides.
+- Follow local regulations regarding pesticide application.
+- Ensure no people or pets are in the area during pesticide application.
+
+**Rationale for Recommended Actions:**
+- **Heatwave Impact:** The upcoming heatwave can stress plants, making them more susceptible to pests and diseases.
+- **Water Quota Reduction:** With a 30% reduction in water availability, it’s crucial to use water efficiently to keep the crops hydrated.
+- **Immediate Risk:** Plots 12 and 27 are at immediate risk; prompt action is necessary to protect your crops.
+
+Please act quickly to implement these recommendations to safeguard your crops during the heatwave.
+
+```json
+{
+  "timestamp": "2023-10-01T12:00:00Z",
+  "urgency": "High",
+  "affected_plots": [12, 27],
+  "recommendations": {
+    "irrigation": [
+      {"plot": 12, "action": "Use AGV to irrigate", "volume_l_per_plot": 70, "timing": "Start immediately"},
+      {"plot": 27, "action": "Use AGV to irrigate", "volume_l_per_plot": 70, "timing": "Start immediately"}
+    ],
+    "pesticide": [
+      {"plot": 12, "action": "Apply pesticide using drone", "drone_trip_est": 1, "safety_wait_minutes": 30},
+      {"plot": 27, "action": "Apply pesticide using drone", "drone_trip_est": 1, "safety_wait_minutes": 30}
+    ]
+  },
+  "notes": "Immediate action is needed due to heatwave and reduced water quota."
+}
+```

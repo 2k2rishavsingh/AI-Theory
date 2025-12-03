@@ -1,0 +1,64 @@
+**Farmer Advisory Note**
+
+**Urgency Level: High**
+
+**Affected Plots: 12, 27**
+
+**Recommended Actions:**
+
+1. **Irrigation:**
+   - **Plot 12:**
+     - Action: Use the AGV to irrigate.
+     - Volume: 140 liters.
+     - Timing: Start immediately and irrigate for 30 minutes.
+   - **Plot 27:**
+     - Action: Use the AGV to irrigate.
+     - Volume: 140 liters.
+     - Timing: Start immediately and irrigate for 30 minutes.
+
+2. **Pesticide Application:**
+   - **Plot 12:**
+     - Action: Apply pesticide using the drone.
+     - Drone Trip Estimate: 1 trip.
+     - Safety Wait: 30 minutes before re-entering the plot.
+   - **Plot 27:**
+     - Action: Apply pesticide using the drone.
+     - Drone Trip Estimate: 1 trip.
+     - Safety Wait: 30 minutes before re-entering the plot.
+
+**Materials/Tools Needed:**
+- AGV (Automated Guided Vehicle)
+- Drone for pesticide application
+- Pesticide (ensure it is suitable for your crops)
+- Water source for irrigation
+
+**Safety and Regulatory Warnings:**
+- Always wear gloves and a mask when handling pesticides.
+- Follow local regulations regarding pesticide application.
+- Ensure no people or pets are in the area during pesticide spraying.
+
+**Rationale for Recommended Actions:**
+- **Heatwave Impact:** The upcoming heatwave will increase water evaporation and stress plants, making immediate irrigation crucial.
+- **Pest Control:** High temperatures can lead to pest outbreaks; applying pesticide now will protect your crops.
+- **Water Quota:** With a 30% reduction in water quota, it’s essential to use water efficiently and prioritize the most affected plots.
+
+Please act quickly to protect your crops!
+
+```json
+{
+  "timestamp": "2023-10-03T12:00:00Z",
+  "urgency": "High",
+  "affected_plots": [12, 27],
+  "recommendations": {
+    "irrigation": [
+      {"plot": 12, "action": "Use AGV to irrigate", "volume_l_per_plot": 140, "timing": "Start immediately and irrigate for 30 minutes"},
+      {"plot": 27, "action": "Use AGV to irrigate", "volume_l_per_plot": 140, "timing": "Start immediately and irrigate for 30 minutes"}
+    ],
+    "pesticide": [
+      {"plot": 12, "action": "Apply pesticide using drone", "drone_trip_est": 1, "safety_wait_minutes": 30},
+      {"plot": 27, "action": "Apply pesticide using drone", "drone_trip_est": 1, "safety_wait_minutes": 30}
+    ]
+  },
+  "notes": "Immediate irrigation and pesticide application are critical due to the heatwave and potential pest outbreaks."
+}
+```

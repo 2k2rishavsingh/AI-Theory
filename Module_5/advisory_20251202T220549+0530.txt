@@ -1,0 +1,70 @@
+**Farmer Advisory Note**
+
+**Urgency Level: High**  
+**Affected Plots: 12, 27**  
+
+**Immediate Actions Needed:**
+
+1. **Irrigation:**
+   - **Plot 12:**
+     - Action: Water the plot.
+     - Volume: Use 140 liters.
+     - Timing: Start irrigation immediately.
+   - **Plot 27:**
+     - Action: Water the plot.
+     - Volume: Use 140 liters.
+     - Timing: Start irrigation immediately.
+
+2. **Pesticide Application:**
+   - **Plot 12:**
+     - Action: Apply pesticide to control pests.
+     - Drone Trip Estimate: 1 trip.
+     - Safety Wait: 30 minutes after application before entering the plot.
+   - **Plot 27:**
+     - Action: Apply pesticide to control pests.
+     - Drone Trip Estimate: 1 trip.
+     - Safety Wait: 30 minutes after application before entering the plot.
+
+**Materials/Tools Needed:**
+- Water source (for irrigation)
+- Drone for pesticide application
+- Pesticide (ensure it is suitable for the pests you are targeting)
+- Personal protective equipment (gloves, mask)
+
+**Safety and Regulatory Warnings:**
+- Always wear protective gear when handling pesticides.
+- Follow local regulations regarding pesticide use and application.
+
+**Rationale for Recommended Actions:**
+- **Heatwave Impact:** The upcoming heatwave will increase water evaporation and stress plants, making immediate irrigation crucial.
+- **Pest Control:** High temperatures can lead to pest outbreaks; applying pesticide now will help protect your crops.
+- **Water Quota:** With a 30% reduction in water quota, it’s essential to use water efficiently; focus on the most affected plots first.
+
+**Step-by-Step Guidance:**
+1. Prepare your water source and ensure it is ready for use.
+2. Use your AGV to transport water to plots 12 and 27.
+3. For each plot, use 1 nozzle and walk at a speed of 3 km/h to apply water evenly.
+4. After irrigation, set up the drone for pesticide application.
+5. Monitor the drone’s battery and ensure it can complete the trip (22 minutes max).
+6. Wait 30 minutes after pesticide application before entering the plots.
+
+---
+
+```json
+{
+  "timestamp": "2023-10-03T12:00:00Z",
+  "urgency": "High",
+  "affected_plots": [12, 27],
+  "recommendations": {
+    "irrigation": [
+      {"plot": 12, "action": "Water the plot", "volume_l_per_plot": 140, "timing": "Start immediately"},
+      {"plot": 27, "action": "Water the plot", "volume_l_per_plot": 140, "timing": "Start immediately"}
+    ],
+    "pesticide": [
+      {"plot": 12, "action": "Apply pesticide", "drone_trip_est": 1, "safety_wait_minutes": 30},
+      {"plot": 27, "action": "Apply pesticide", "drone_trip_est": 1, "safety_wait_minutes": 30}
+    ]
+  },
+  "notes": "Immediate irrigation and pesticide application are critical due to the heatwave and potential pest outbreaks."
+}
+```

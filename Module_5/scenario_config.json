@@ -1,0 +1,10 @@
+{
+  "total_area_acres": 200,
+  "plots_total": 50,
+  "water_cut_pct": 30,
+  "drones_available": 2,
+  "agv_available": 1,
+  "battery_minutes": 22,
+  "risk_plots": [12, 27],
+  "weather_brief": "Heatwave expected next 72 hours: high daytime temps and low humidity"
+}

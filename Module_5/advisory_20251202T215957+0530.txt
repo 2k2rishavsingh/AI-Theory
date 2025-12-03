@@ -1,0 +1,63 @@
+**Farmer Advisory Note**
+
+**Urgency Level: High**  
+**Affected Plots: 12, 27**  
+
+**Immediate Actions Required:**
+
+1. **Irrigation:**
+   - **Plot 12:**
+     - Action: Water the plot.
+     - Volume: Use 105 liters.
+     - Timing: Start irrigation immediately.
+   - **Plot 27:**
+     - Action: Water the plot.
+     - Volume: Use 105 liters.
+     - Timing: Start irrigation immediately.
+
+2. **Pesticide Application:**
+   - **Plot 12:**
+     - Action: Apply pesticide to control pests.
+     - Drone Trip Estimate: 1 trip.
+     - Safety Wait: 30 minutes after application before entering the area.
+   - **Plot 27:**
+     - Action: Apply pesticide to control pests.
+     - Drone Trip Estimate: 1 trip.
+     - Safety Wait: 30 minutes after application before entering the area.
+
+**Materials/Tools Needed:**
+- Water source (for irrigation)
+- Drone for pesticide application
+- Pesticide (ensure it is suitable for your crops)
+- Safety gear (gloves, mask)
+
+**Safety and Regulatory Warnings:**
+- Always wear safety gear when handling pesticides.
+- Follow local regulations regarding pesticide use.
+- Ensure that the pesticide is safe for the crops you are treating.
+
+**Rationale for Recommended Actions:**
+- **Heatwave Impact:** The upcoming heatwave will increase water evaporation, making immediate irrigation crucial to prevent crop stress.
+- **Pest Control:** High temperatures can lead to increased pest activity; applying pesticide now will help protect your crops.
+- **Water Quota:** With a 30% reduction in water quota, it’s essential to use water efficiently. The recommended volumes are calculated to maximize coverage while adhering to the quota.
+
+Please act quickly to protect your crops!
+
+```json
+{
+  "timestamp": "2023-10-03T12:00:00Z",
+  "urgency": "High",
+  "affected_plots": [12, 27],
+  "recommendations": {
+    "irrigation": [
+      {"plot": 12, "action": "Water the plot", "volume_l_per_plot": 105, "timing": "Start immediately"},
+      {"plot": 27, "action": "Water the plot", "volume_l_per_plot": 105, "timing": "Start immediately"}
+    ],
+    "pesticide": [
+      {"plot": 12, "action": "Apply pesticide", "drone_trip_est": 1, "safety_wait_minutes": 30},
+      {"plot": 27, "action": "Apply pesticide", "drone_trip_est": 1, "safety_wait_minutes": 30}
+    ]
+  },
+  "notes": "Immediate irrigation and pesticide application are crucial due to the heatwave and increased pest activity."
+}
+```
