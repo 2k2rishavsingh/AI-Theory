@@ -1,0 +1,15 @@
+{
+  "duration": {
+    "CheckMoisture": 3,
+    "CheckPest": 3,
+    "Irrigate": 15,
+    "Spray": 5
+  },
+  "resources": {
+    "water_per_irrigation": 60,
+    "base_quota": 5000,
+    "vehicles": ["Drone1", "Drone2", "AGV"],
+    "battery_capacity": 22,
+    "days": 7
+  }
+}
