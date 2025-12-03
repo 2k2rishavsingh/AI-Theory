@@ -58,5 +58,4 @@ Encourages:
 
 ---
 
-## 📁 Project Structure
 
