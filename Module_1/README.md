@@ -1,4 +1,4 @@
-AI-Driven Precision Irrigation and Pest Mitigation System - Bayesian Pest Risk BN
+# Bayesian Pest Outbreak Risk Estimation
 
 This mini-project provides:
 - A compact Bayesian Network implementation that estimates pest outbreak risk (Low/Medium/High)
