@@ -7,7 +7,7 @@ This mini-project provides:
 - A Bayes-Ball d-separation check.
 
 Run:
-python3 src/inference.py
+`` python3 src/inference.py ``
 
 Python 3.8+ recommended.
 
