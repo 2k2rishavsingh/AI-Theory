@@ -8,21 +8,21 @@ Files:
 
 Setup:
 1. Create a virtual environment (recommended).
+
 2. Install dependencies:
-   pip install -r requirements.txt
+   `` pip install -r requirements.txt``
 
 3. Set your OpenAI API key in environment variable:
+<br>
    Linux/Mac:
-     export OPENAI_API_KEY="sk-..."
+    ``       export OPENAI_API_KEY="sk-..." ``
+    <br>
    Windows PowerShell:
-     $env:OPENAI_API_KEY="sk-..."
+    `` $env:OPENAI_API_KEY="sk-..." ``
 
 4. Run:
-   python advisory_generator.py
+   `` python advisory_generator.py ``
 
 Output:
 - A timestamped text file `advisory_YYYYMMDDTHHMMSS+0530.txt` will be created with the advisory.
-
-Notes:
-- Change MODEL in `advisory_generator.py` to match your available model.
-- Do NOT hardcode the API key in code for security.
+![alt text](<Screenshot from 2025-12-03 19-33-13.png>)
