@@ -1,4 +1,4 @@
-# Farmer Advisory Generator
+# LLM-based Farmer Advisory and Decision Explanation
 
 Files:
 - advisory_generator.py  -> main script
